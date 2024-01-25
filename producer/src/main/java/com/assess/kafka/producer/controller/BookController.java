@@ -14,7 +14,7 @@ import com.assess.kafka.producer.service.KafkaBookProducerService;
 @RestController
 @RequestMapping("/books")
 public class BookController {
-    private final KafkaBookProducerService producerService;
+    private KafkaBookProducerService producerService;
 
     public BookController(KafkaBookProducerService producerService) {
         this.producerService = producerService;
