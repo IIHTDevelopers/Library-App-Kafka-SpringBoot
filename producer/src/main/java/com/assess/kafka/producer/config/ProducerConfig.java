@@ -1,5 +1,9 @@
 package com.assess.kafka.producer.config;
 
+import org.springframework.kafka.core.ProducerFactory;
+import org.springframework.kafka.core.KafkaTemplate;
+
+
 public class ProducerConfig {
 
 	private String bootStrapServer;
