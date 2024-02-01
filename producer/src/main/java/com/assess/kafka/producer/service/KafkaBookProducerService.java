@@ -7,7 +7,7 @@ import com.assess.kafka.producer.model.Book;
 
 @Service
 public class KafkaBookProducerService {
-    private final KafkaTemplate<String, Book> kafkaTemplate;
+    private KafkaTemplate<String, Book> kafkaTemplate;
 
     
     public void sendBook(String topic, Book book) {
