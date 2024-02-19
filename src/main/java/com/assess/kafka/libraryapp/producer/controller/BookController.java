@@ -25,8 +25,5 @@ public class BookController {
        return null;
     }
 
-    @PutMapping("/{id}")
-    public ResponseEntity<?> updateBook(@PathVariable Long id, @RequestBody Book book) {
-        return null;
-    }
+   
 }
