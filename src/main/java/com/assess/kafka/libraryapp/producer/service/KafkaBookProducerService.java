@@ -10,7 +10,7 @@ public class KafkaBookProducerService {
     private KafkaTemplate<String, Book> kafkaTemplate;
 
     
-    public void sendBook(String topic, Book book) {
-        
+    public Book sendBook(String topic, Book book) {
+        return null;
     }
 }

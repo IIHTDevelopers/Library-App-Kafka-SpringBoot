@@ -9,14 +9,9 @@ import com.assess.kafka.libraryapp.model.Book;
 public class KafkaBookConsumerService {
 
     
-    public void listenAddBook(Book book) {
+    public Book listenAddBook(Book book) {
         // Process the received book
-       
+       return null;
     }
     
-    
-    public void listenUpdateBook(Book book) {
-        // Process the received book
-        
-    }
 }
